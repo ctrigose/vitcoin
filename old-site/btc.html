@@ -1,0 +1,83 @@
+
+<!-- saved from url=(0046)https://bitcoin-cb6c7.firebaseapp.com/btc.html -->
+<html class="gr__bitcoin-cb6c7_firebaseapp_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="./btc_files/p5.min.js"></script>
+    <script src="./btc_files/p5.dom.min.js"></script>
+
+    <script src="./btc_files/d3.min.js" charset="utf-8"></script>
+    <script src="./btc_files/c3.min.js"></script>
+
+    <script type="text/javascript" src="./btc_files/loader.js"></script>
+
+    <script src="./btc_files/firebase.js"></script>
+    <link href="./btc_files/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./btc_files/bootstrap.min.css">
+    <script>
+        // Initialize Firebase
+        let config = {
+            apiKey: "AIzaSyD-MnfptvWooYLV2HlHdO1m9_MTgZckn8Q",
+            authDomain: "bitcoin-cb6c7.firebaseapp.com",
+            databaseURL: "https://bitcoin-cb6c7.firebaseio.com",
+            projectId: "bitcoin-cb6c7",
+            storageBucket: "bitcoin-cb6c7.appspot.com",
+            messagingSenderId: "241612172651"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <link href="./btc_files/c3.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./btc_files/style.css">
+    <link href="./btc_files/css" rel="stylesheet">
+
+<script type="text/javascript" charset="UTF-8" src="./btc_files/loader(1).js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="./btc_files/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="./btc_files/util.css"><script type="text/javascript" charset="UTF-8" src="./btc_files/jsapi_compiled_format_module.js"></script><script type="text/javascript" charset="UTF-8" src="./btc_files/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="./btc_files/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="./btc_files/jsapi_compiled_corechart_module.js"></script></head>
+<body data-gr-c-s-loaded="true">
+<script src="./btc_files/btc.js"></script>
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="https://bitcoin-cb6c7.firebaseapp.com/btc.html#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bitcoin-cb6c7.firebaseapp.com/trade.html">Trade</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bitcoin-cb6c7.firebaseapp.com/leaderboard.html">Leaderboard</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">Virtual Gdax Exchange</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-3" id="welcome">Welcome, CarlosTrigo</h1>
+        <p class="lead">This app allows you to trade [virtual] Bitcoin. It uses the GDAX api to get real-time exchange rates, and allows you to trade and keep track of your progress. </p>
+        <p><a class="btn btn-lg btn-success" href="https://bitcoin-cb6c7.firebaseapp.com/trade.html" role="button">Let's Trade!</a></p>
+    </div>
+
+    <div class="row marketing">
+        <div class="col-lg-6">
+            <h4 id="btc">BTC: 0.7</h4>
+            <p>This is your current Bitcoin balance.</p>
+
+        </div>
+
+        <div class="col-lg-6">
+            <h4 id="usd">USD: 4717.994</h4>
+            <p>This is your current US Dollars balance.</p>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© Created by Carlos Trigo Seguin</p>
+    </footer>
+
+</div>
+<div id="chart"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 1046px; height: 200px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="1046" height="200" aria-label="A chart." style="overflow: hidden;"><defs id="defs"><clippath id="_ABSTRACT_RENDERER_ID_15"><rect x="108" y="38" width="830" height="124"></rect></clippath></defs><rect x="0" y="0" width="1046" height="200" stroke="none" stroke-width="0" fill="#3da07e"></rect><g><rect x="952" y="38" width="80" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="952" y="38" width="80" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="985" y="49.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">price</text></g><path d="M952,45L980,45" stroke="#3366cc" stroke-width="2" fill-opacity="1" fill="none"></path></g></g><g><rect x="108" y="38" width="830" height="124" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://bitcoin-cb6c7.firebaseapp.com/btc.html#_ABSTRACT_RENDERER_ID_15)"><g><rect x="108" y="161" width="830" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="108" y="130" width="830" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="108" y="100" width="830" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="108" y="69" width="830" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="108" y="38" width="830" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect></g><g><path d="M108.5,124.6C108.5,124.6,119.81938878307162,122.54999999999626,123.21551733873244,124.6C126.61164589439326,126.65000000000373,130.0077747765701,136.27450971449124,133.40390333223093,136.9C136.80003188789175,137.52549028550874,143.17858407874562,126.65000000000373,148.06592428874495,124.6C152.9532644987443,122.54999999999626,157.8414964239526,124.6,162.72928265481443,124.6C167.61706888567625,124.6,174.30545407253447,122.54999999999626,178.77418509167467,124.6C183.24291611081486,126.65000000000373,188.3848101572142,137.20880885874303,192.18037847561123,136.9C195.97594679400828,136.59119114125696,199.82991543849909,126.61845783415211,203.56708343080237,124.6C207.30425142310563,122.58154216584789,211.0414197419249,124.6,214.77858773422815,124.6C218.51575572653144,124.6,226.0828189913272,136.9,229.99028401803645,124.6C233.8977490447457,112.3,238.08696146679463,62.213108956071665,241.7126787716482,50.8C245.33839607650177,39.38689104392833,248.9641133813553,50.8,252.58983068620887,50.8C256.2155479910624,50.8,265.4138052191736,50.8,270.4068007840543,50.8C275.39979634893507,50.8,280.3927922403318,50.8,285.3857878052125,50.8C290.37878337009323,50.8,313.7602689338636,50.8,327.9475094981891,50.8C342.1347500625146,50.8,427.40441678435946,50.8,432.82449201829456,50.8C438.24456725222973,50.8,444.5553569235856,50.8,449.08471739358396,50.8C453.61407786358234,50.8,458.14343800706473,50.8,462.67279847706317,50.8C467.20215894706155,50.8,473.28336019574067,50.8,477.72534302377164,50.8C482.1673258518026,50.8,486.60930900634963,50.8,491.0512918343806,50.8C495.4932746624116,50.8,501.00295633656253,50.8,505.34953739180935,50.8C509.69611844705616,50.8,514.0426995023029,50.8,518.3892805575497,50.8C522.7358616127965,50.8,529.8138786746403,50.8,532.1846601221253,50.8C534.5554415696104,50.8,536.9262226905794,50.8,539.2970041380645,50.8C541.6677855855496,50.8,553.1851106563133,50.8,557.4135539763331,50.8C561.6419972963529,50.8,565.8704402898567,49.13866626794133,570.0988836098765,50.8C574.3273269298962,52.46133373205866,583.1096494597432,53.861863465484106,585.7519250469868,63.099999999999994C588.3942006342304,72.33813653451588,591.0364758949579,104.09999999999627,593.6787514822015,112.3C596.321027069445,120.50000000000372,605.1064704392654,112.3,609.8159351783884,112.3C614.5253999175115,112.3,619.595965563125,112.3,623.9443297222737,112.3C628.2926938814225,112.3,634.8361931419445,112.3,636.9894225262359,112.3C639.1426519105274,112.3,641.2958812948189,112.3,643.4491106791104,112.3C645.6023400634019,112.3,660.5398673883408,112.3,664.6162917133845,112.3C668.6927160384283,112.3,672.769140363472,112.3,676.8455646885158,112.3C680.9219890135596,112.3,685.9292503892038,112.3,690.4710932395479,112.3C695.0129360898919,112.3,702.0441438172945,112.3,705.7055254857991,112.3C709.3669071543036,112.3,713.028288496292,112.3,716.6896701647966,112.3C720.3510518333011,112.3,728.5163828637342,116.39999999999627,732.9284969871986,112.3C737.340611110663,108.20000000000373,745.7243859194987,88.10929574619085,746.1648393575916,87.69999999999999C746.6052927956847,87.29070425380914,747.0457465602937,87.69999999999999,747.4861999983867,87.69999999999999C747.9266534364797,87.69999999999999,759.1515318354601,87.69999999999999,763.9456993974396,87.69999999999999C768.7398669594193,87.69999999999999,773.5340341948829,87.69999999999999,778.3282017568624,87.69999999999999C783.1223693188421,87.69999999999999,796.3341922963743,87.69999999999999,800.0236595655435,87.69999999999999C803.7131268347126,87.69999999999999,807.4025937773658,87.69999999999999,811.092061046535,87.69999999999999C814.7815283157042,87.69999999999999,827.9340595784497,87.69999999999999,828.6575981479539,87.69999999999999C829.381136717458,87.69999999999999,830.1046752869622,87.69999999999999,830.8282138564664,87.69999999999999C831.5517524259706,87.69999999999999,846.6408527250229,87.69999999999999,854.5471723225593,87.69999999999999C862.4534919200955,87.69999999999999,937.4999999999999,87.69999999999999,937.4999999999999,87.69999999999999" stroke="#3366cc" stroke-width="2" fill-opacity="1" fill="none"></path></g></g><g></g><g><g><text text-anchor="end" x="94" y="166.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">7,030.0</text></g><g><text text-anchor="end" x="94" y="135.65" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">7,032.5</text></g><g><text text-anchor="end" x="94" y="104.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">7,035.0</text></g><g><text text-anchor="end" x="94" y="74.15" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">7,037.5</text></g><g><text text-anchor="end" x="94" y="43.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">7,040.0</text></g></g></g><g><g><text text-anchor="middle" x="523" y="189.9" font-family="Arial" font-size="14" font-style="italic" stroke="none" stroke-width="0" fill="#222222">Time</text><rect x="108" y="178" width="830" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><text text-anchor="middle" x="28.4" y="100" font-family="Arial" font-size="14" font-style="italic" transform="rotate(-90 28.4 100)" stroke="none" stroke-width="0" fill="#222222">USD/BTC</text><path d="M16.499999999999996,162L16.500000000000004,38L30.500000000000004,38L30.499999999999996,162Z" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></path></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>time</th><th>price</th></tr></thead><tbody><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,032</td></tr><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,032</td></tr><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,033</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,039</td></tr><tr><td>Aug 29, 2018</td><td>7,038</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,034</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr><tr><td>Aug 29, 2018</td><td>7,036</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 210px; left: 1056px; white-space: nowrap; font-family: Arial; font-size: 14px;">price</div><div></div></div></div>
+
+
+
+<canvas id="defaultCanvas0" width="200" height="200" style="width: 100px; height: 100px;"></canvas><p></p></body></html>

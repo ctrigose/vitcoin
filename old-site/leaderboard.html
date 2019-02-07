@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Leaderboard</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Crimson+Text|Fira+Sans|Monoton|Song+Myung|Oswald" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/">
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    <script>
+        // Initialize Firebase
+        let config = {
+            apiKey: "AIzaSyD-MnfptvWooYLV2HlHdO1m9_MTgZckn8Q",
+            authDomain: "bitcoin-cb6c7.firebaseapp.com",
+            databaseURL: "https://bitcoin-cb6c7.firebaseio.com",
+            projectId: "bitcoin-cb6c7",
+            storageBucket: "bitcoin-cb6c7.appspot.com",
+            messagingSenderId: "241612172651"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+</head>
+
+<body>
+
+<script src="leaderboard.js"></script>
+
+
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="btc.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="trade.html">Trade</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Leaderboard</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">Virtual Gdax Exchange</h3>
+    </div>
+    <div class="row marketing">
+        <div class="col-lg-6">
+            <h4 id="btc">BTC</h4>
+            <p>This is your current Bitcoin balance.</p>
+
+
+        </div>
+
+        <div class="col-lg-6">
+            <h4 id="usd">USD</h4>
+            <p>This is your current US Dollars balance.</p>
+
+        </div>
+    </div>
+    <div class="jumbotron" id="table_">
+
+        <h2>Leaderboard</h2>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>BTC</th>
+                    <th>USD</th>
+                    <th>Worth</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1,001</td>
+                    <td>Lorem</td>
+                    <td>ipsum</td>
+                    <td>dolor</td>
+                </tr>
+                <tr>
+                    <td>1,002</td>
+                    <td>amet</td>
+                    <td>consectetur</td>
+                    <td>adipiscing</td>
+
+                </tr>
+                <tr>
+                    <td>1,003</td>
+                    <td>Integer</td>
+                    <td>nec</td>
+
+                    <td>Praesent</td>
+                </tr>
+                <tr>
+                    <td>1,003</td>
+                    <td>libero</td>
+                    <td>Sed</td>
+                    <td>cursus</td>
+
+                </tr>
+                <tr>
+                    <td>1,004</td>
+                    <td>dapibus</td>
+                    <td>diam</td>
+                    <td>Sed</td>
+
+                </tr>
+                <tr>
+                    <td>1,005</td>
+                    <td>Nulla</td>
+                    <td>quis</td>
+                    <td>sem</td>
+
+                </tr>
+                <tr>
+                    <td>1,006</td>
+                    <td>nibh</td>
+                    <td>elementum</td>
+                    <td>imperdiet</td>
+
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row marketing">
+        <div class="col-lg-6">
+            <input type="text" class="form-control" id="buy_input">
+            <p><a onclick="buy()" class="btn btn-lg btn-success" href="#" role="button"  style="margin:20px 30px 0px 0px;">Buy</a><a id="buy"></a></p>
+        </div>
+
+        <div class="col-lg-6">
+            <input type="text" class="form-control" id="sell_input">
+            <p><a onclick="sell()" class="btn btn-lg btn-success" href="#" role="button" style="margin:20px 30px 0px 0px;">Sell</a><a id="sell"></a></p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <p>&copy; Created by Carlos Trigo Seguin</p>
+    </footer>
+
+</div>
+
+
+</body>
+
+</html>

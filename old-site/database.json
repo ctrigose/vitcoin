@@ -1,0 +1,131 @@
+{
+  "user_data" : {
+    "-LBIF3sYQuN3pfIWZigC" : {
+      "btc_balance" : 0,
+      "name" : "carlos",
+      "usd_balance" : 10000
+    },
+    "-LBIGr2M900kDq0Q5C4s" : {
+      "btc_balance" : 0,
+      "name" : "Miguel",
+      "usd_balance" : 10000
+    },
+    "-LBIH_ynLbFEi8O3oPaK" : {
+      "btc_balance" : 0,
+      "name" : "carlos",
+      "usd_balance" : 10000
+    },
+    "-LBIId2ZyqmWIfASq1L4" : {
+      "btc_balance" : 0,
+      "name" : "carlos",
+      "usd_balance" : 10000
+    },
+    "-LBIJ4qcYmxkX61xrEqV" : {
+      "btc_balance" : 0,
+      "name" : "carlos",
+      "usd_balance" : 10000
+    },
+    "-LBIJGLYCulJsiYMR9GK" : {
+      "btc_balance" : 0,
+      "name" : "carlos",
+      "usd_balance" : 10000
+    }
+  },
+  "users" : {
+    "09prF2kPKqUCMTP6k2WAilSEp7u1" : {
+      "btc_balance" : 0,
+      "name" : "Susana Seguin",
+      "usd_balance" : 10000
+    },
+    "8gziqdQ63PexnL4Ff230b7iRP3H3" : {
+      "btc_balance" : 0,
+      "name" : "Miguel",
+      "usd_balance" : 10000
+    },
+    "VXLgFCFwp7WnxX3w8s47zCIdqGX2" : {
+      "btc_balance" : 0.27,
+      "name" : "Rachel",
+      "transactions" : [ {
+        "btc_amount" : 0.02,
+        "date" : "2018-05-02T01:13:25.264000Z",
+        "type" : "buy",
+        "usd_per_btc" : 9028.04,
+        "usd_value" : 180.56080000000003
+      }, {
+        "btc_amount" : 0.25,
+        "date" : "2018-05-02T01:15:08.862000Z",
+        "type" : "buy",
+        "usd_per_btc" : 9028.04,
+        "usd_value" : 2257.01
+      } ],
+      "usd_balance" : 7562.4292000000005
+    },
+    "bS5A0EG3TbYmM3XDVVWkQ5KBFcE3" : {
+      "btc_balance" : 0,
+      "name" : "SneakySeller",
+      "usd_balance" : 10000
+    },
+    "bWy5VRdaDWbNSvWCXtkvTsJdVmZ2" : {
+      "btc_balance" : 0.6999999999999998,
+      "name" : "CarlosTrigo",
+      "transactions" : {
+        "0" : {
+          "btc_amount" : 0.1,
+          "date" : "2018-05-02T17:28:41.614000Z",
+          "type" : "buy",
+          "usd_per_btc" : 9110.24,
+          "usd_value" : 911.024
+        },
+        "1" : "0",
+        "2" : {
+          "btc_amount" : 0.05,
+          "date" : "2018-05-02T17:28:54.946000Z",
+          "type" : "sell",
+          "usd_per_btc" : 9110.24,
+          "usd_value" : 455.512
+        },
+        "23" : 6
+      },
+      "usd_balance" : 4717.993999999999
+    },
+    "n1i9BYUZVjatCqHhd5LWcd5so8p2" : {
+      "btc_balance" : 0.55,
+      "name" : "drew",
+      "transactions" : [ {
+        "btc_amount" : 1,
+        "date" : "2018-05-02T01:07:51.812000Z",
+        "type" : "buy",
+        "usd_per_btc" : 9028.04,
+        "usd_value" : 9028.04
+      }, {
+        "btc_amount" : 0.05,
+        "date" : "2018-05-02T01:08:35.615000Z",
+        "type" : "buy",
+        "usd_per_btc" : 9029.99,
+        "usd_value" : 451.4995
+      }, {
+        "btc_amount" : 0.5,
+        "date" : "2018-05-03T20:59:40.606000Z",
+        "type" : "sell",
+        "usd_per_btc" : 9639.76,
+        "usd_value" : 4819.88
+      } ],
+      "usd_balance" : 5340.34
+    },
+    "p8jMZTSQDFOrJt5GiCxiZITfirL2" : {
+      "btc_balance" : 0,
+      "name" : "snekayturtle",
+      "usd_balance" : 10000
+    },
+    "qh2W9tLVePPFOFFU91gLQH8k8eq2" : {
+      "btc_balance" : 0,
+      "name" : "MariaTrigo",
+      "usd_balance" : 10000
+    },
+    "qjbazrE9NnaDUtfs4gJFTKQAR9H3" : {
+      "btc_balance" : 0,
+      "name" : "Shelby",
+      "usd_balance" : 10000
+    }
+  }
+}

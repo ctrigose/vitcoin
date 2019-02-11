@@ -9,7 +9,7 @@ const buttonStyle = {
   border:"solid",
   borderRadius: "4px",
   borderColor: "white",
-  color: "#26de81",
+  color: "#eb3b5a",
   fontSize: "1em",
   textDecoration: "none",
   padding: "1em",

@@ -12,7 +12,7 @@ Flex.defaultProps = {
   justify: "center",
   p: "0",
   ml:"7.5em",
-  bg: "#26de81",
+  bg: "#eb3b5a",
 }
 
 Img.defaultProps = {
@@ -46,7 +46,7 @@ const NavigationAuth = () => (
   <Provider>
     <Box>
       <Flex>
-        
+
         <Link style={linkStyle} to={ROUTES.HOME}>Home</Link>
 
         <Link style={linkStyle} to={ROUTES.TRADE}>Trade</Link>
